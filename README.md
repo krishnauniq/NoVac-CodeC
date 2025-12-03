@@ -2,7 +2,6 @@
 ### Agentic AI for Real-Time Pollution Awareness & Health Guidance
 
 *Live Demo:* https://novac-codec.streamlit.app/ <br>
-*Pitch Deck:* [PPT Link](https://docs.google.com/presentation/d/1cls7ZPqZiqSc5aywnZbzYp1ufZ7WOREd/edit?usp=sharing&ouid=103428513934760837912&rtpof=true&sd=true)
 
 ---
 
