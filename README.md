@@ -1,7 +1,7 @@
 # 🌬️ NoVac — The Air Quality Copilot  
 ### Agentic AI for Real-Time Pollution Awareness & Health Guidance
 
-*Live Demo:* https://novac-codec.streamlit.app/ <br>
+**Live Demo:** https://novac-codec.streamlit.app/
 
 ---
 
@@ -17,34 +17,56 @@ People need *clear, proactive, personalized guidance*, not just raw AQI data.
 NoVac is an *Agentic AI–driven Air Quality Copilot* that interprets air-quality data and recommends real-time actions to protect user health.
 
 ### ⭐ Core Features
-- *Real-Time AQI Dashboard*  
+- **Real-Time AQI Dashboard**  
   Live PM2.5, PM10, and pollutant levels with simple visualization.
 
-- *Interactive AQI Heatmap*  
+- **Interactive AQI Heatmap**  
   City-wide pollution overview with hyper-local concentration zones.
 
-- *VAYU GPT Chatbot*  
+- **VAYU GPT Chatbot**  
   Groq + Llama 3 powered assistant for answering health, AQI, and safety questions.
 
-- *AI Copilot Mode*  
+- **AI Copilot Mode**  
   - Health risk level  
   - Short & clear air-quality summary  
   - Trend detection  
   - 3-day PM2.5 forecast  
   - Actionable recommendations  
 
-- *WhatsApp Alerts*  
+- **WhatsApp Alerts**  
   Real-time notifications for sudden spikes or improved conditions.
 
 ---
 
+## 📸 Screenshots
+
+### 🔹 Real-Time AQI Visualizer
+<img src="screenshots/Screenshot%202026-01-26%20153802.png" width="900"/>
+
+### 🔹 AI Copilot Dashboard (Decision Space)
+<img src="screenshots/Screenshot%202026-01-26%20153839.png" width="900"/>
+
+### 🔹 WhatsApp Real-Time Alert System
+<img src="screenshots/Screenshot%202026-01-26%20154137.png" width="900"/>
+
+### 🔹 VAYU GPT – AQI Conversational Assistant
+<img src="screenshots/Screenshot%202026-01-26%20154346.png" width="900"/>
+
+### 🔹 Interactive City Heatmap
+<img src="screenshots/Screenshot%202026-01-26%20154434.png" width="900"/>
+
+
+
+
+---
+
 ## 🧠 Tech Stack
-- *Frontend:* Streamlit  
-- *Backend:* Python  
-- *AI Engine:* Groq + Llama 3  
-- *Data:* OpenWeather, OpenAQ  
-- *Other:* WhatsApp Cloud API  
-- *Deployment:* Cloud (GCP)
+- **Frontend:** Streamlit  
+- **Backend:** Python  
+- **AI Engine:** Groq + Llama 3  
+- **Data:** OpenWeather, OpenAQ  
+- **Other:** WhatsApp Cloud API  
+- **Deployment:** Cloud (GCP)
 
 ---
 
@@ -58,6 +80,7 @@ NoVac is an *Agentic AI–driven Air Quality Copilot* that interprets air-qualit
 ---
 
 ## 🧪 Run Locally
+
 ```bash
 git clone https://github.com/krishnauniq/NoVac.git
 cd NoVac
