@@ -44,7 +44,7 @@ def ai_agent_analysis(aqi, trend, spike, spike_change, forecast):
         """
 
         response = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model="openai/gpt-oss-20b",
             messages=[{"role": "user", "content": prompt}]
         )
 
