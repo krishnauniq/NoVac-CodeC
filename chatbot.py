@@ -38,7 +38,7 @@ def vayu_llm(messages):
         client = Groq(api_key=api_key)
 
         resp = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model="openai/gpt-oss-20b",
             messages=messages,
         )
         return resp.choices[0].message.content
